@@ -28,19 +28,17 @@ def predict_datapoint():
             lunch=request.form.get('lunch'),
             test_preparation_course=request.form.get('test_preparation_course'),
             reading_score=float(request.form.get('writing_score')),
-            writing_score=float(request.form.get('reading_score'))
-
-        )
+            writing_score=float(request.form.get('reading_score')))
+        
         pred_df=data.get_data_as_data_frame()
         print(pred_df)
-        print("Before Prediction")
 
         predict_pipeline=PredictPipeline()
-        print("Mid Prediction")
         results=predict_pipeline.predict(pred_df)
-        print("after Prediction")
         return render_template('home.html',results=results[0])
+    
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")        
+    # app.run(host="0.0.0.0",port=8080)        
+    app.run(host='0.0.0.0', port=8080)        
