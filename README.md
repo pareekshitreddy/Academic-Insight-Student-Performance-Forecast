@@ -40,5 +40,3 @@ Contributions to the Student Performance Predictor application are welcome! If y
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code according to your needs.
 
----
-Feel free to add any additional sections or details as necessary to tailor the README to your project's specific requirements.
