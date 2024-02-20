@@ -1,6 +1,6 @@
 # Academic Insight: Student Performance Forecast
 
-The Academic Insight is an end-to-end machine learning application developed in Python. It predicts student performance based on various factors and incorporates essential features for efficient development and deployment.
+Academic Insight is an end-to-end machine learning application developed using Python and Flask. It predicts student performance based on various factors and incorporates essential features for efficient development and deployment.
 
 ## Features
 
